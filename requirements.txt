@@ -1,0 +1,10 @@
+discord.py>=2.3.0
+wavelink>=3.0.0
+python-dotenv
+aiohttp
+psutil
+Java 17 or newer
+Lavalink Server
+    -File: Lavalink.jar (it is in bot folder).
+    -Config: application.yml (it is in bot folder just edit the refresh token).
+    -How to run: You must strictly run java -jar Lavalink.ja
