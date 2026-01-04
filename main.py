@@ -52,6 +52,9 @@ class MarikaBot(commands.Bot):
     async def on_ready(self):
         print(f"Logged in as {self.user} (ID: {self.user.id})")
         print(f"Active Prefix: {self.command_prefix}")
+        await self.change_presence(
+            activity=discord.Activity(type=discord.ActivityType.playing, name="shattering elden ring"),
+            status=discord.Status.dnd
         if TERMINAL_LOG_CHANNEL_ID:
             self.log.addHandler(DiscordLogHandler(self, TERMINAL_LOG_CHANNEL_ID))
         self.log.info("System Online. The Golden Order is restored.")
@@ -59,4 +62,5 @@ class MarikaBot(commands.Bot):
 bot = MarikaBot()
 
 if __name__ == "__main__":
+
     bot.run(DISCORD_TOKEN)
