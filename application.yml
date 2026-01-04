@@ -25,7 +25,7 @@ plugins:
     enabled: true
     oauth:
       enabled: true
-      refreshToken: "1//0gguO81LGWv-NCgYIARAAGBASNwF-L9IrJn6GepDv_EW0xFwB3LgNHjBJkH6ZpBP25XK8pSOg6V-v5zdIxjR_VNpOB3p8AaP22Hk"
+      refreshToken: "Token Here"
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
